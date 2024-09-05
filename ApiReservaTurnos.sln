@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiReservaTurnos", "ApiReservaTurnos\ApiReservaTurnos.csproj", "{287953BF-047B-470E-A270-DD915427F3AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{60A6F410-5BFC-436F-AC9C-791CDE1CD8E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaTurnos.DataAccess", "ReservaTurnos.DataAccess\ReservaTurnos.DataAccess.csproj", "{487AA520-6CBE-401B-9E49-63698EA0271F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaTurnos.Models", "ReservaTurnos.Models\ReservaTurnos.Models.csproj", "{66C592ED-F146-454B-A84B-57969ABAD2A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaTurnos.Repository", "ReservaTurnos.Repository\ReservaTurnos.Repository.csproj", "{FFAE48D3-C4E9-4C7A-AFC2-9AF262BA238A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaTurnos.UnitOfWork", "ReservaTurnos.UnitOfWork\ReservaTurnos.UnitOfWork.csproj", "{17D0B36D-C6A2-422F-B1B7-DC5570567D57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{678854BB-7FAA-4A7D-B91D-0FF961692C13}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287953BF-047B-470E-A270-DD915427F3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287953BF-047B-470E-A270-DD915427F3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287953BF-047B-470E-A270-DD915427F3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287953BF-047B-470E-A270-DD915427F3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487AA520-6CBE-401B-9E49-63698EA0271F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487AA520-6CBE-401B-9E49-63698EA0271F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487AA520-6CBE-401B-9E49-63698EA0271F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487AA520-6CBE-401B-9E49-63698EA0271F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C592ED-F146-454B-A84B-57969ABAD2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C592ED-F146-454B-A84B-57969ABAD2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C592ED-F146-454B-A84B-57969ABAD2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C592ED-F146-454B-A84B-57969ABAD2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAE48D3-C4E9-4C7A-AFC2-9AF262BA238A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAE48D3-C4E9-4C7A-AFC2-9AF262BA238A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAE48D3-C4E9-4C7A-AFC2-9AF262BA238A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAE48D3-C4E9-4C7A-AFC2-9AF262BA238A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D0B36D-C6A2-422F-B1B7-DC5570567D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D0B36D-C6A2-422F-B1B7-DC5570567D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D0B36D-C6A2-422F-B1B7-DC5570567D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D0B36D-C6A2-422F-B1B7-DC5570567D57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{487AA520-6CBE-401B-9E49-63698EA0271F} = {60A6F410-5BFC-436F-AC9C-791CDE1CD8E9}
+		{66C592ED-F146-454B-A84B-57969ABAD2A2} = {60A6F410-5BFC-436F-AC9C-791CDE1CD8E9}
+		{FFAE48D3-C4E9-4C7A-AFC2-9AF262BA238A} = {60A6F410-5BFC-436F-AC9C-791CDE1CD8E9}
+		{17D0B36D-C6A2-422F-B1B7-DC5570567D57} = {60A6F410-5BFC-436F-AC9C-791CDE1CD8E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8BF5F31-E9A2-40DB-961B-D3460BD72A4E}
+	EndGlobalSection
+EndGlobal
